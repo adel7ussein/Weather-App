@@ -18,9 +18,5 @@ class WeatherCubit extends Cubit<WeatherState> {
     }
   }
 
-  void getThemeColor({ WeatherModel? weatherModel}) {
-    if (weatherModel != null) {
-      emit(WeatherThemeColor());
-    }
-  }
+
 }
